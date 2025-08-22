@@ -1,5 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import NavaBar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
@@ -7,9 +9,11 @@ gsap.registerPlugin(ScrollTrigger, SplitText)
 const Page = () => {
   return ( 
 
-    <div className="flex-center h-[100vh]">
-      oi
-    </div>
+    <main>
+      <NavaBar />
+      <Hero />
+      <div className="h-dvh bg-black"></div>
+    </main>
    );
 }
  
