@@ -112,6 +112,7 @@ const Hero = () => {
 					ref={videoRef}
 					muted
 					playsInline
+					autoPlay
 					preload="auto"
 					src="/videos/output.webm"
 
