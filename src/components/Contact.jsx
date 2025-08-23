@@ -39,13 +39,13 @@ const Contact = () => {
 
                 <div>
                     <h3>Visite Nosso Bar</h3>
-                    <p>456, Raq Blvd. #404, Los Angeles, CA 90210</p>
+                    <p>Rio de janeiro, Copacabana</p>
                 </div>
 
                 <div>
                     <h3>Fale Conosco</h3>
-                    <p>(555) 987-6543</p>
-                    <p>hello@jsmcocktail.com</p>
+                    <p>(21) 987-65434</p>
+                    <p>coqueteis@jsw.com</p>
                 </div>
 
                 <div>

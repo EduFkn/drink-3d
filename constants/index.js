@@ -8,7 +8,7 @@ const navLinks = [
        title: "Sobre nós",
     },
     {
-       id: "work",
+       id: "art",
        title: "Arte",
     },
     {
@@ -17,59 +17,60 @@ const navLinks = [
     },
    ];
    
-   const cocktailLists = [
-    {
-       name: "Chapel Hill Shiraz",
-       country: "AU",
-       detail: "Battle",
-       price: "$10",
-    },
-    {
-       name: "Caten Malbee",
-       country: "AU",
-       detail: "Battle",
-       price: "$49",
-    },
-    {
-       name: "Rhino Pale Ale",
-       country: "CA",
-       detail: "750 ml",
-       price: "$20",
-    },
-    {
-       name: "Irish Guinness",
-       country: "IE",
-       detail: "600 ml",
-       price: "$29",
-    },
-   ];
-   
-   const mockTailLists = [
-    {
-       name: "Tropical Bloom",
-       country: "US",
-       detail: "Battle",
-       price: "$10",
-    },
-    {
-       name: "Passionfruit Mint",
-       country: "US",
-       detail: "Battle",
-       price: "$49",
-    },
-    {
-       name: "Citrus Glow",
-       country: "CA",
-       detail: "750 ml",
-       price: "$20",
-    },
-    {
-       name: "Lavender Fizz",
-       country: "IE",
-       detail: "600 ml",
-       price: "$29",
-    },
-   ];
+  const cocktailLists = [
+  {
+    name: "Vinho Tinto do Vale",
+    country: "BR",
+    detail: "Garrafa 750 ml",
+    price: "R$ 49,90",
+  },
+  {
+    name: "Espumante Serra Gaúcha",
+    country: "BR",
+    detail: "Garrafa 750 ml",
+    price: "R$ 89,90",
+  },
+  {
+    name: "Cerveja Puro Malte",
+    country: "BR",
+    detail: "Long Neck 330 ml",
+    price: "R$ 9,90",
+  },
+  {
+    name: "Chope Artesanal",
+    country: "BR",
+    detail: "Copo 500 ml",
+    price: "R$ 14,90",
+  },
+];
+
+const mockTailLists = [
+  {
+    name: "Abacaxi Refrescante",
+    country: "BR",
+    detail: "Copo 300 ml",
+    price: "R$ 12,00",
+  },
+  {
+    name: "Maracujá com Hortelã",
+    country: "BR",
+    detail: "Copo 300 ml",
+    price: "R$ 14,00",
+  },
+  {
+    name: "Cítrico Tropical",
+    country: "BR",
+    detail: "Copo 300 ml",
+    price: "R$ 13,00",
+  },
+  {
+    name: "Lavanda Espumante",
+    country: "BR",
+    detail: "Copo 300 ml",
+    price: "R$ 15,00",
+  },
+];
+
    
    const profileLists = [
     {
@@ -86,35 +87,36 @@ const navLinks = [
     },
    ];
    
-   const featureLists = [
-    "Perfectly balanced blends",
-    "Garnished to perfection",
-    "Ice-cold every time",
-    "Expertly shaken & stirred",
-   ];
-   
-   const goodLists = [
-    "Handpicked ingredients",
-    "Signature techniques",
-    "Bartending artistry in action",
-    "Freshly muddled flavors",
-   ];
-   
-   const storeInfo = {
-    heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
-    contact: {
-       phone: "(555) 987-6543",
-       email: "hello@jsmcocktail.com",
-    },
-   };
-   
-   const openingHours = [
-    { day: "Mon–Thu", time: "11:00am – 12am" },
-    { day: "Fri", time: "11:00am – 2am" },
-    { day: "Sat", time: "9:00am – 2am" },
-    { day: "Sun", time: "9:00am – 1am" },
-   ];
+  const featureLists = [
+  "Misturas equilibradas na medida certa",
+  "Finalização impecável",
+  "Sempre gelado e refrescante",
+  "Preparado com técnica e estilo",
+];
+
+const goodLists = [
+  "Ingredientes selecionados à mão",
+  "Técnicas exclusivas",
+  "Arte da coquetelaria ao vivo",
+  "Sabores macerados na hora",
+];
+
+const storeInfo = {
+  heading: "Onde Nos Encontrar",
+  address: "Av. Atlântica, 1234 - Copacabana, Rio de Janeiro - RJ, 22070-000",
+  contact: {
+    phone: "(21) 98765-4321",
+    email: "contato@brcoktail.com.br",
+  },
+};
+
+const openingHours = [
+  { day: "Seg–Qui", time: "11h00 – 00h00" },
+  { day: "Sex", time: "11h00 – 02h00" },
+  { day: "Sáb", time: "09h00 – 02h00" },
+  { day: "Dom", time: "09h00 – 01h00" },
+];
+
    
    const socials = [
     {
@@ -135,39 +137,40 @@ const navLinks = [
    ];
    
    const allCocktails = [
-    {
-       id: 1,
-       name: "Classic Mojito",
-       image: "/images/drink1.png",
-       title: "Simple Ingredients, Bold Flavor",
-       description:
-        "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
-    },
-    {
-       id: 2,
-       name: "Raspberry Mojito",
-       image: "/images/drink2.png",
-       title: "A Zesty Classic That Never Fails",
-       description:
-        "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
-    },
-    {
-       id: 3,
-       name: "Violet Breeze",
-       image: "/images/drink3.png",
-       title: "Simple Ingredients, Bold Flavor",
-       description:
-        "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
-    },
-    {
-       id: 4,
-       name: "Curacao Mojito",
-       image: "/images/drink4.png",
-       title: "Crafted With Care, Poured With Love",
-       description:
-        "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
-    },
-   ];
+  {
+    id: 1,
+    name: "Caipirinha Clássica",
+    image: "/images/drink1.png",
+    title: "Ingredientes Simples, Sabor Marcante",
+    description:
+      "Preparada com cachaça, limão e açúcar, a caipirinha é um clássico brasileiro fácil de fazer e cheio de personalidade. Um toque de gelo garante refrescância nos dias quentes.",
+  },
+  {
+    id: 2,
+    name: "Caipifruta de Framboesa",
+    image: "/images/drink2.png",
+    title: "Um Clássico Tropical Que Nunca Sai de Moda",
+    description:
+      "A caipifruta combina a acidez da framboesa com a suavidade da cachaça e um leve dulçor. Perfeita batida ou servida com gelo para manter-se fresca e vibrante.",
+  },
+  {
+    id: 3,
+    name: "Brisa de Lavanda",
+    image: "/images/drink3.png",
+    title: "Ingredientes Simples, Sabor Marcante",
+    description:
+      "Feita com gin, limão-siciliano e um toque floral de lavanda, é leve e aromática. Ideal para um fim de tarde à beira-mar.",
+  },
+  {
+    id: 4,
+    name: "Mojito de Curaçau Blue",
+    image: "/images/drink4.png",
+    title: "Feito com Carinho, Servido com Amor",
+    description:
+      "Com hortelã fresca, rum branco e curaçau blue, é um coquetel vibrante e refrescante — perfeito para celebrar ou simplesmente relaxar.",
+  },
+];
+
    
    export {
     navLinks,
