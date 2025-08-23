@@ -76,18 +76,18 @@ const Hero = () => {
 				<h1 className="title">MORK</h1>
 
 				<img
-					src="/images/hero-left-leaf.png"
+					src="/images/hero-left-leaf.webp"
 					alt="left-leaf"
 					className="left-leaf opacity-50 w-[20%]"
 				/>
 				<img
-					src="/images/hero-right-leaf.png"
+					src="/images/hero-right-leaf.webp"
 					alt="right-leaf"
 					className="right-leaf opacity-50 w-[15%]"
 				/>
 
 				<div className="body">
-					{/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
+					{/* <img src="/images/arrow.webp" alt="arrow" className="arrow" /> */}
 
 					<div className="content">
 						<div className="space-y-5 hidden md:block">

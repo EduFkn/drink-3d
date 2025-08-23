@@ -31,8 +31,8 @@ const Contact = () => {
 
     return (
         <footer id="contact">
-            <img src="/images/footer-right-leaf.png" alt="folha-direita" id="f-right-leaf" />
-            <img src="/images/footer-left-leaf.png" alt="folha-esquerda" id="f-left-leaf" />
+            <img src="/images/footer-right-leaf.webp" alt="folha-direita" id="f-right-leaf" />
+            <img src="/images/footer-left-leaf.webp" alt="folha-esquerda" id="f-left-leaf" />
 
             <div className="content">
                 <h2>Onde Nos Encontrar</h2>
@@ -74,6 +74,9 @@ const Contact = () => {
                         ))}
                     </div>
                 </div>
+            </div>
+            <div className="flex-center mb-3">
+                <p>@ Copyright Eduardo Almeida, Todos os direitos reservados.</p>
             </div>
         </footer>
     )

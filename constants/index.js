@@ -74,16 +74,16 @@ const mockTailLists = [
    
    const profileLists = [
     {
-       imgPath: "/images/profile1.png",
+       imgPath: "/images/profile1.webp",
     },
     {
-       imgPath: "/images/profile2.png",
+       imgPath: "/images/profile2.webp",
     },
     {
-       imgPath: "/images/profile3.png",
+       imgPath: "/images/profile3.webp",
     },
     {
-       imgPath: "/images/profile4.png",
+       imgPath: "/images/profile4.webp",
     },
    ];
    
@@ -121,17 +121,17 @@ const openingHours = [
    const socials = [
     {
        name: "Instagram",
-       icon: "/images/insta.png",
+       icon: "/images/insta.webp",
        url: "#",
     },
     {
        name: "X (Twitter)",
-       icon: "/images/x.png",
+       icon: "/images/x.webp",
        url: "#",
     },
     {
        name: "Facebook",
-       icon: "/images/fb.png",
+       icon: "/images/fb.webp",
        url: "#",
     },
    ];
@@ -140,7 +140,7 @@ const openingHours = [
   {
     id: 1,
     name: "Caipirinha Clássica",
-    image: "/images/drink1.png",
+    image: "/images/drink1.webp",
     title: "Ingredientes Simples, Sabor Marcante",
     description:
       "Preparada com cachaça, limão e açúcar, a caipirinha é um clássico brasileiro fácil de fazer e cheio de personalidade. Um toque de gelo garante refrescância nos dias quentes.",
@@ -148,7 +148,7 @@ const openingHours = [
   {
     id: 2,
     name: "Caipifruta de Framboesa",
-    image: "/images/drink2.png",
+    image: "/images/drink2.webp",
     title: "Um Clássico Tropical Que Nunca Sai de Moda",
     description:
       "A caipifruta combina a acidez da framboesa com a suavidade da cachaça e um leve dulçor. Perfeita batida ou servida com gelo para manter-se fresca e vibrante.",
@@ -156,7 +156,7 @@ const openingHours = [
   {
     id: 3,
     name: "Brisa de Lavanda",
-    image: "/images/drink3.png",
+    image: "/images/drink3.webp",
     title: "Ingredientes Simples, Sabor Marcante",
     description:
       "Feita com gin, limão-siciliano e um toque floral de lavanda, é leve e aromática. Ideal para um fim de tarde à beira-mar.",
@@ -164,7 +164,7 @@ const openingHours = [
   {
     id: 4,
     name: "Mojito de Curaçau Blue",
-    image: "/images/drink4.png",
+    image: "/images/drink4.webp",
     title: "Feito com Carinho, Servido com Amor",
     description:
       "Com hortelã fresca, rum branco e curaçau blue, é um coquetel vibrante e refrescante — perfeito para celebrar ou simplesmente relaxar.",

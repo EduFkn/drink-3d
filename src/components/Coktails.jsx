@@ -28,8 +28,8 @@ const Cocktails = () => {
     return (
 
         <section id="cocktails" className="">
-            <img className="opacity-50 w-[30%]" id="c-left-leaf" src="/images/cocktail-left-leaf.png" alt="left-leaf" />
-            <img className="opacity-50 w-[35%]" id="c-right-leaf" src="/images/cocktail-right-leaf.png" alt="right-leaf" />
+            <img className="opacity-50 w-[30%]" id="c-left-leaf" src="/images/cocktail-left-leaf.webp" alt="left-leaf" />
+            <img className="opacity-50 w-[35%]" id="c-right-leaf" src="/images/cocktail-right-leaf.webp" alt="right-leaf" />
             <div className="list">
                 <div className="popular">
                     <h2>Coqueteis Mais Populares: </h2>
