@@ -4,20 +4,22 @@ import NavaBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Cocktails from "./components/Coktails";
 import About from "./components/About";
+import Art from "./components/Art";
 
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
 const Page = () => {
-  return ( 
+  return (
 
     <main>
       <NavaBar />
       <Hero />
-        <Cocktails />
-        <About />
+      <Cocktails />
+      <About />
+      <Art />
     </main>
-   );
+  );
 }
- 
+
 export default Page;
