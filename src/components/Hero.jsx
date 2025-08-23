@@ -113,8 +113,8 @@ const Hero = () => {
 					muted
 					playsInline
 					preload="auto"
-					src="/videos/output.mp4"
-					className="z-999 opacity-100"
+					src="/videos/output.webm"
+
 				/>
 			</div>
 		</>
