@@ -78,12 +78,12 @@ const Hero = () => {
 		<img
 		 src="/images/hero-left-leaf.png"
 		 alt="left-leaf"
-		 className="left-leaf"
+		 className="left-leaf opacity-50 w-[20%]"
 		/>
 		<img
 		 src="/images/hero-right-leaf.png"
 		 alt="right-leaf"
-		 className="right-leaf"
+		 className="right-leaf opacity-50 w-[15%]"
 		/>
 		
 		<div className="body">
@@ -109,6 +109,7 @@ const Hero = () => {
 	 
 	 <div className="video absolute inset-0">
 		<video
+		
 		 ref={videoRef}
 		 muted
 		 playsInline
