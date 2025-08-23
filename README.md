@@ -1,12 +1,80 @@
-# React + Vite
+# 🌟 Site de Coquetéis Impressionante com GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📋 Índice
+- 🤖 Introdução  
+- ⚙️ Stack Tecnológica  
+- 🔋 Funcionalidades  
+- 🤸 Guia Rápido  
+- 🔗 Recursos  
+- 🚀 Mais  
+- 🚨 Tutorial  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🤖 Introdução
+
+Crie e publique um site de coquetéis impressionante com **GSAP**, **React** e **Tailwind CSS** — uma experiência moderna baseada em rolagem, repleta de animações avançadas.  
+Dê vida ao seu design com efeitos como:
+
+- Revelações dinâmicas com **SplitText**  
+- Rolagem parallax suave  
+- Efeitos ativados por rolagem com **ScrollTrigger**  
+- Sessões fixadas no scroll com animações  
+- Reprodução de vídeo sincronizada à posição da rolagem para contar histórias de forma cinematográfica  
+- Máscaras de imagem ativadas pela rolagem  
+- Carrossel animado personalizado  
+- Animações contínuas que se estendem entre seções  
+- Layout totalmente responsivo que se adapta lindamente a qualquer tela  
+
+Se você está começando e precisa de ajuda ou enfrentar bugs, junte-se à nossa comunidade ativa no Discord com mais de **50 mil membros**. Lá todo mundo ajuda todo mundo.
+
+---
+
+## ⚙️ Stack Tecnológica
+
+- **GSAP**: Biblioteca de animação JavaScript poderosa usada para criar visuais dinâmicos baseados em rolagem, com recursos como SplitText, ScrollTrigger, rolagem parallax, seções fixadas, vídeo sincronizado, timelines suaves, máscaras de imagem e carrossel customizado.
+
+- **React**: Biblioteca JavaScript declarativa para criar interfaces interativas. Fornece estrutura de componentes para desenvolvimento modular, integração com animações GSAP e suporte para layouts responsivos e UIs controladas por estado.
+
+- **Tailwind CSS**: Framework CSS utility-first que permite criar interfaces personalizadas aplicando classes utilitárias de baixo nível diretamente no HTML.  
+
+- **Vite**: Ferramenta de build e servidor de desenvolvimento ultrarrápido, com HMR instantâneo, inicialização veloz e builds otimizados — perfeito para um site React pesado em animação.
+
+---
+
+## 🔋 Funcionalidades
+
+👉 **Animações SplitText**: Revelações impactantes de texto usando GSAP’s SplitText.  
+
+👉 **Efeitos ScrollTrigger**: Controle de animações e timelines baseadas em rolagem.
+
+👉 **Rolagem Parallax**: Efeito de profundidade suave ao rolar.  
+
+👉 **Seções Fixas**: Travamento de seções no viewport enquanto conteúdos animam.  
+
+👉 **Vídeo Sincronizado ao Scroll**: Sincronização do progresso do vídeo com a rolagem.  
+
+👉 **Máscaras de Imagem**: Transições visuais marcantes com máscaras e pins.  
+
+👉 **Carrossel Personalizado**: Navegação múltipla e slides animados customizados.  
+
+👉 **Timelines Contínuas**: Animações fluídas que se estendem entre seções. 
+
+👉 **Design Responsivo**: Layout e animações GSAP que se adaptam a todas as telas.  
+
+E muito mais — incluindo segurança aprimorada e desempenho de vídeo otimizado!
+
+---
+
+## 🤸 Guia Rápido
+
+### Pré-requisitos
+Certifique-se de ter instalado na sua máquina:  
+- **Git**  
+- **Node.js**  
+- **npm** (Node Package Manager)
+
