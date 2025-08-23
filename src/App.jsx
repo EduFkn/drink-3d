@@ -12,7 +12,7 @@ const Page = () => {
     <main>
       <NavaBar />
       <Hero />
-      <div className="h-dvh bg-black"></div>
+        
     </main>
    );
 }
