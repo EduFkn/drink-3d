@@ -72,7 +72,7 @@ const Hero = () => {
  
  return (
 	<>
-	 <section id="hero" className="">
+	 <section id="hero">
 		<h1 className="title">MORK</h1>
 		
 		<img
@@ -109,7 +109,6 @@ const Hero = () => {
 	 
 	 <div className="video absolute inset-0">
 		<video
-		
 		 ref={videoRef}
 		 muted
 		 playsInline
