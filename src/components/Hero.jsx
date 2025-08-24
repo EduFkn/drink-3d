@@ -107,12 +107,11 @@ const Hero = () => {
 				</div>
 			</section>
 
-			<div className="video absolute inset-0 z-2">
+			<div className="video absolute inset-0 ">
 				<video
 					ref={videoRef}
 					muted
 					playsInline
-					
 					preload="auto"
 					src="/videos/output.webm"
 
